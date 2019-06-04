@@ -5,7 +5,7 @@ my_new_array = Array.new
 end
 
 def array_with_two_elements
-my_two_array = Array.new[2]
+my_two_array = Array.new(2,2)
 end
 
 
