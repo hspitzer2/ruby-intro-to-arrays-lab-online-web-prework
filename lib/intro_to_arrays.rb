@@ -8,7 +8,7 @@ end
 
 def array_with_two_elements
 @my_two_array = array_with_two_elements
-  returns array.new(2)
+  returns Array.new(2, "green")
  end
 end
 
