@@ -1,11 +1,11 @@
 
 
-def instantiate_new_array(my_new_array)
+def instantiate_new_array(array)
 my_new_array = Array.new
  return my_new_array
 end
 
-def array_with_two_elements(my_two_array)
+def array_with_two_elements(array)
   my_two_array = Array.new(2, "green")
   returns Array.new[2, "green"]
 end
