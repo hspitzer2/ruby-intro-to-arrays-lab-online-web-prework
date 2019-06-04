@@ -2,13 +2,13 @@
 
 def instantiate_new_array
 @my_new_array = instantiate_new_array
- return my_new_array()
+ return my_new_array[]
  end
 end
 
 def array_with_two_elements
 @my_two_array = array_with_two_elements
-  returns Array.new(2, "green")
+  returns Array.new[2, "green"]
  end
 end
 
